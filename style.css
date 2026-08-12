@@ -1,0 +1,80 @@
+body{
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+    display: flex;
+    background-color: white;
+}
+
+#Mensaje{
+    background-image: url(imagenes/mensaje.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 200%;
+    text-align: center;
+    align-items: center;
+    color: black;
+    margin-top: 12%;
+    height: 31%;
+    width: 82%;
+}
+
+#Text1{
+    margin-top: 25%;
+}
+
+#Text2{
+    margin-top: 10px;
+}
+
+#Continuar{
+    margin-top: 10%;
+    width: 32%;
+    height: 7%;
+    background-color: white;
+    border-radius: 25px;
+    font-size: 380%;
+    border: 3px solid black;
+}
+
+#Continuar:active{
+    border: none;
+}
+
+#Alerta{
+    text-align: center;
+    align-items: center;
+    color: black;
+    height: 15%;
+    width: 100%;
+    font-size: 300%;
+    margin-top: 10%;
+    display: none;
+}
+
+#blabla{
+    margin: 10px;
+}
+
+#Contraseña{
+    margin: 10px;
+}
+
+.Pistas{
+    text-align: center;
+    align-items: center;
+    color: black;
+    height: 15%;
+    width: 100%;
+    font-size: 300%;
+    margin-top: 10%;
+    display: none;
+    opacity: 0;
+    transition: opacity 10s;
+}
+
+#Pista8{
+    color: white;
+}
