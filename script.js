@@ -20,7 +20,7 @@ Boton.addEventListener("click", function(){
         Musica.play();
         Alerta.style.display="block"
         Boton.style.display="none";
-        Pistas[0].style.display="none";
+        Pistas[0].style.display="block";
         Pistas[0].style.opacity="1";
         Pistas[1].style.display="none";
         Pistas[1].style.opacity="0";
