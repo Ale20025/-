@@ -22,8 +22,8 @@ Boton.addEventListener("click", function(){
         Boton.style.display="none";
         Pistas[0].style.display="block";
         Pistas[0].style.opacity="1";
-        Pistas[1].style.display="none";
-        Pistas[1].style.opacity="0";
+        Pistas[1].style.display="block";
+        Pistas[1].style.opacity="1";
         Pistas[2].style.display="none";
         Pistas[2].style.opacity="0";
         Pistas[3].style.display="none";
